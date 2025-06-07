@@ -124,7 +124,7 @@ h1 {
       font-size: 1rem;
     }
   }
-}*/
+}
 
 @media (min-width: 1024px) {
   .hero {
@@ -152,6 +152,7 @@ h1 {
     border-left: 1px solid rgb(199, 196, 202);
     margin: 0px;
     grid-column: 2/4;
+
 
     h1 {
       font-size: 3.8rem;
@@ -203,9 +204,5 @@ h1 {
   }
   .hero-div-images-secondary-2 img {
     object-fit: cover;
-  }
-
-  .hero_blue {
-
   }
 }
