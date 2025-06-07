@@ -4,3 +4,8 @@
     font-style: normal;
     font-weight: 200px;
 }
+@font-face {
+    font-family: "Noto serif Regular";
+    src: url(../fonts/Noto_Serif/static/NotoSerif-Regular.ttf) format("truetype");
+    font-style: normal;
+}
