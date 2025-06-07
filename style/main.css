@@ -65,6 +65,7 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  
   .hero_span {
     margin: 10px 0;
     width: 100%;
@@ -85,24 +86,16 @@ h1 {
   .hero_blue_cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    width: 100%;
     a {
-      > div {
+      .hero_blue_cards_div_img {
         border-top: 1px solid white;
         border-left: 1px solid white;
-        /*.hero_blue_cards_img {
-          
-          box-sizing: border-box;
-          overflow: hidden;
-          img {
-            border: 3px solid blueviolet;
-            object-fit: cover;
-          }
-        }*/
+
       }
 
       div {
         padding: 5px;
+
       }
       h3 {
         padding: 5px;
@@ -131,7 +124,7 @@ h1 {
       font-size: 1rem;
     }
   }
-}
+}*/
 
 @media (min-width: 1024px) {
   .hero {
@@ -210,5 +203,9 @@ h1 {
   }
   .hero-div-images-secondary-2 img {
     object-fit: cover;
+  }
+
+  .hero_blue {
+
   }
 }
